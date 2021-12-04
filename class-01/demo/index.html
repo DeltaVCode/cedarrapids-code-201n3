@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab 1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href=""> -->
+    <style>
+      body {
+        background-color: rgba(173, 200, 218, 0.705);
+      }
+      p {
+        padding: 30px;
+      }
+      p:first-of-type {
+        background-color: rgb(0, 255, 34);
+      }
+      p + p  {
+        background-color: rgb(248, 162, 3);
+      }
+      p:nth-child(4) {
+        background-color: rgb(80, 200, 255);
+      }
+      p:last-of-type {
+        background-color: azure;
+      }
+
+    </style>
+  </head>
+  <body style="margin: 0 auto; width: 1200px;">
+     <script>
+      let userName = prompt("Welcome, what is your name? ");
+      console.log('userName is', userName);
+      alert("Hello " + userName + " fellow carbon based lifeform.");
+      alert("Mind if I ask you some more questions? Ok here we go? ");
+
+      let userColor = prompt("What is your favorite color?");
+      console.log('userColor is', userColor);
+      alert("Wow your favorite color is " + userColor + ". So is mine!");
+
+      let userPet = prompt("What is your favorite pet? A dog or a cat?");
+      console.log('userPet is', userPet);
+      alert("So your a " + userPet + " fan. Me too!");
+
+      let userPassword = prompt("What is your password?");
+      console.log('userPassword is', userPassword);
+      alert("I mean " + userName + " you can trust me. I know your favorite color is " + userColor + " plus, you like " + userPet + "\'s. So your password is..  " + userPassword);
+
+    </script> 
+    
+
+    <!-- Set up html elements -->
+    <header></header>
+    <main>
+      <h1>Class 1b Lab</h1>
+      <p style="background-color: dodgerblue; color: whitesmoke">What is your Name?</p>
+      <p>What is your favorite color?</p>
+      <p>What is your favorite pet?</p>
+      <p>What is your password?</p>
+    </main>
+    <footer></footer>
+
+    <!-- <script src=""></script> -->
+  </body>
+</html>
