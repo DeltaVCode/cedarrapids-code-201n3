@@ -1,0 +1,67 @@
+body {
+  background-color: rgba(77, 77, 167, 0.39);
+font-size: 24px;
+}
+
+section {
+  margin-bottom: 150px;
+  background-color: chartreuse;
+  height: 75px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+}
+.parent{
+  top: -10px;
+  position: relative;
+  background-color: wheat;
+}
+.price {
+  position: fixed;
+}
+
+header {
+  margin-top: 55px;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+main {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  /* read why on browser deprecated items */
+  /* text-justify: inter-word; */
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+nav {
+  text-align: center;
+  margin-bottom: 25px;
+}
+nav ul {
+  border-top: 5px solid #ee82ee;
+  border-bottom: 5px dashed violet
+}
+nav li {
+  display: inline;
+  margin: 25px;
+}
+img {
+  display: block;
+}
+
+footer {
+  height: 175px;
+  width: 100%;
+  background-color: rgb(35, 199, 183);
+  position: fixed;
+  bottom: 0;
+  
+}
