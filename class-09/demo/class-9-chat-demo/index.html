@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chat Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- forms contructor functions styles -->
+    <h1>Note: Gang Members Chat: Fred, Velma, Daphne, Shaggy, ScoobyDoo</h1>
+     <!-- form -->
+    <div>
+      <form id="chat-form">
+        <fieldset>
+          <legend>Chat Submission Form</legend>
+          <label for="who">Who:</label>
+          <input type="text"  name="who">
+          <label for="">Message:</label>
+          <input  type="text"   name="message">
+          <button type="submit" id="chat-submit">Send Chat</button>
+        </fieldset>
+      </form>
+      <button type="submit" id="chat-clear">Clear Chat</button>
+    </div>
+    <!-- chat list -->
+    <div>
+      <ul id="chat-list"></ul>
+    </div>
+    
+    
+    <script src="js/app.js" ></script>
+  </body>
+</html>
