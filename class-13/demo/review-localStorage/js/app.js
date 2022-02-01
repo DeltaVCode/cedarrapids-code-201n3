@@ -19,7 +19,7 @@ const PizzaPicture = function(name, imageSrc, timesClicked, timesShown){
   if(timesClicked){
     this.timesClicked = timesClicked;
   } else {
-    this.clicks = 0;
+    this.timesClicked = 0;
   }
   if(timesShown){
     this.timesShown = timesShown;
